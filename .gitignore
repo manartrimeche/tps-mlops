@@ -1,0 +1,71 @@
+# Fichiers et dossiers à ignorer par Git
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environnements virtuels
+venv/
+env/
+
+# DVC
+.dvc/
+dvcstore/
+*.dvc
+
+# MLflow
+mlruns/
+mlflow.env
+
+# Données
+*.csv
+*.tsv
+*.xlsx
+*.h5
+*.db
+*.sqlite
+*.log
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.npz
+*.npy
+*.pkl
+*.joblib
+*.json
+*.yaml
+*.yml
+
+# Docker
+*.pid
+*.sock
+
+# VSCode
+.vscode/
+
+# Node
+node_modules/
+
+# Autres
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# Rapports et images
+img/
+reports/
+
+# Build
+build/
+
+# Runs
+runs/
+
+# Scripts temporaires
+*.cmd
+*.ps1
+*.sh
