@@ -59,6 +59,14 @@ Thumbs.db
 img/
 reports/
 
+# Deploy-cv-yolo
+backup/
+models/
+samples/
+scripts/
+serving/
+.gitlab-ci.yml
+
 # Build
 build/
 
